@@ -74,7 +74,6 @@ body {
   white-space: nowrap;
 }
 
-/* Accent */
 .logo-text span {
   color: #1ED760;
   font-weight: 700;
@@ -83,7 +82,7 @@ body {
 .nav-left {
   display: flex;
   align-items: center;
-  gap: 12px; 
+  gap: 2px; 
 }
 
 .nav-links {
