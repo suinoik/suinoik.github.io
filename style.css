@@ -65,7 +65,8 @@ body {
 
 .logo-text {
   color: #ffffff;
-  font-size: 22px;        
+  font-size: 22px;
+  margin-left: 14px;
   font-weight: 600;
   letter-spacing: 0.4px;
   line-height: 1;         
