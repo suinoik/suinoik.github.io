@@ -61,17 +61,20 @@ body {
   background: linear-gradient(135deg, #22c55e, #16a34a);
   color: black;
   box-shadow: 0 0 20px var(--glow);
+  flex-shrink: 0; 
 }
 
 .logo-text {
   color: #ffffff;
-  font-size: 22px;
-  margin-left: 14px;
+  font-size: 22px !important;
   font-weight: 600;
   letter-spacing: 0.4px;
-  line-height: 1;         
+  line-height: 1;
+  margin: 0;
+  white-space: nowrap;
 }
 
+/* Accent */
 .logo-text span {
   color: #1ED760;
   font-weight: 700;
