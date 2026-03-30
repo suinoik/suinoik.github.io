@@ -64,15 +64,16 @@ body {
 }
 
 .logo-text {
-  color: #e6e6e6;
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
+  color: #ffffff;
+  font-size: 18px;        
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  line-height: 1;         
 }
 
 .logo-text span {
   color: #1ED760;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .nav-left {
