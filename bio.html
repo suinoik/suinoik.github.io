@@ -1,37 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Professional Bio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="bio.html">Professional Bio</a>
-  <a href="value.html">Value Proposition</a>
-  <a href="artifacts.html">Artifacts</a>
-  <a href="contact.html">Contact</a>
-</nav>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-left">
+        <div class="logo">SI</div>
+        <div class="logo-text">Suino Ikhioda <span>Digital Portfolio</span></div>
+      </div>
 
-<main class="page-content">
-  <section class="content-card">
-    <h1>Professional Bio</h1>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="bio.html" class="active">Professional Bio</a>
+        <a href="value.html">Value Proposition</a>
+        <a href="artifacts.html">Artifacts</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
 
-    <p>
-      I am a technology-focused problem solver with a strong interest in artificial intelligence, software development, and data-driven systems. My academic experience has helped me build a solid foundation in programming, analytics, and structured problem-solving while strengthening my ability to approach challenges with both logic and creativity.
-    </p>
+  <main class="container bio-page">
+    <section class="page-header bio-header">
+      <p class="section-kicker">Built with Intention</p>
+      <h1>Professional Bio</h1>
+      <p class="page-subtitle">
+        I am a technology-focused problem solver with a strong interest in artificial intelligence, software development, and data-driven systems. My work is grounded in building solutions that are structured, useful, and designed with real people in mind.
+      </p>
+    </section>
 
-    <p>
-      I am especially interested in building digital tools that improve how people interact with technology. Whether through AI-powered platforms, user-centered applications, or data-informed systems, I focus on creating solutions that are practical, efficient, and meaningful. I value work that goes beyond technical function and delivers a clear, useful experience to the people it is meant to serve.
-    </p>
+    <section class="metrics-row bio-metrics">
+      <div class="metric-card">
+        <span class="metric-number">AI</span>
+        <span class="metric-label">Core Focus Area</span>
+      </div>
 
-    <p>
-      As I continue to grow professionally, I remain focused on developing real-world solutions that connect innovation, usability, and long-term impact. My goal is to contribute to technology in a way that is thoughtful, effective, and grounded in solving genuine problems.
-    </p>
-  </section>
-</main>
+      <div class="metric-card">
+        <span class="metric-number">Software + Data</span>
+        <span class="metric-label">Technical Foundation</span>
+      </div>
+
+      <div class="metric-card">
+        <span class="metric-number">User-Centered</span>
+        <span class="metric-label">Development Mindset</span>
+      </div>
+    </section>
+
+    <section class="section-intro">
+      <p class="section-kicker">Who I Am</p>
+      <h2>Building thoughtful digital solutions</h2>
+      <p>
+        My academic experience has helped me develop a foundation in programming, analytics, and structured problem-solving while strengthening my ability to approach challenges with both logic and creativity.
+      </p>
+    </section>
+
+    <section class="bio-layout">
+      <article class="bio-feature-card">
+        <div class="artifact-label">Professional Overview</div>
+        <h3>Technology, structure, and practical problem-solving</h3>
+        <p class="artifact-summary">
+          I am especially interested in building digital tools that improve how people interact with technology. Whether through AI-powered platforms, user-centered applications, or data-informed systems, I focus on creating solutions that are practical, efficient, and meaningful.
+        </p>
+        <p class="artifact-summary">
+          I value work that goes beyond technical function and delivers a clear, useful experience to the people it is meant to serve. My approach is shaped by curiosity, discipline, and a strong interest in creating systems that solve real problems.
+        </p>
+        <p class="artifact-summary bio-last-paragraph">
+          As I continue to grow professionally, I remain focused on developing real-world solutions that connect innovation, usability, and long-term impact. My goal is to contribute to technology in a way that is thoughtful, effective, and grounded in solving genuine problems.
+        </p>
+      </article>
+
+      <aside class="bio-side-grid">
+        <div class="detail-box bio-detail-box">
+          <h4>Focus Areas</h4>
+          <p>Artificial intelligence, software development, analytics, and digital systems.</p>
+        </div>
+
+        <div class="detail-box bio-detail-box">
+          <h4>Strengths</h4>
+          <p>Structured thinking, technical problem-solving, and translating ideas into practical solutions.</p>
+        </div>
+
+        <div class="detail-box bio-detail-box">
+          <h4>Approach</h4>
+          <p>I build with purpose, balancing technical precision with usability and real-world value.</p>
+        </div>
+
+        <div class="detail-box bio-detail-box">
+          <h4>Goal</h4>
+          <p>To create impactful systems that improve experiences, support better decisions, and scale meaningfully.</p>
+        </div>
+      </aside>
+    </section>
+  </main>
 
 </body>
 </html>
